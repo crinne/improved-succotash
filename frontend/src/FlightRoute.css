@@ -1,0 +1,18 @@
+
+.wrapper {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  width: 550px;
+  min-height: 75px;
+  color: #61dafb;
+  background-color: #2d3138;
+  font-weight: 300;
+  font-size: 2rem;
+
+}
+
+
+.link {
+  display: flex;
+}

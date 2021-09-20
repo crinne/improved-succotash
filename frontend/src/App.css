@@ -1,0 +1,86 @@
+.app {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.header {
+  margin-top: 5%;
+
+}
+
+.main {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  gap: 8px;
+
+
+}
+
+.button-element {
+  width: 50%;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: #282c34;
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+
+  background-color: #61dafb;
+  border: none;
+  transition: all 0.3s;
+}
+
+.button-element:active, .button-element:hover, button-element:focus {
+  outline:0;
+  outline: none;
+  background-color: #10c5f7;
+}
+
+.button-element:disabled {
+  cursor:not-allowed;
+  background-color: #acd4df;
+
+}
+
+.input-element {
+  border: 2px solid transparent;
+  
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: #282c34;
+  padding: 1.5rem 2rem;
+
+  border-radius: 5px;
+  width: 100%;
+  transition: all 0.3s;
+  font-weight: 300;
+
+}
+.input-element:hover {
+    border: 2px solid #61dafb;
+}
+
+.input-element:active, .input-element:focus {
+  outline: none;
+  box-shadow: none;
+  border: 2px solid #61dafb;
+}
+
+.App-link {
+  color: #61dafb;
+}
